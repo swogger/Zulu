@@ -25,14 +25,14 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.9546072"
-     inkscape:cx="463.00862"
-     inkscape:cy="336.64052"
-     inkscape:window-width="1309"
-     inkscape:window-height="910"
+     inkscape:zoom="2.6723307"
+     inkscape:cx="306.09984"
+     inkscape:cy="260.4468"
+     inkscape:window-width="1445"
+     inkscape:window-height="916"
      inkscape:window-x="0"
      inkscape:window-y="38"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g1467" />
   <defs
      id="defs22399">
@@ -44,7 +44,7 @@
          offset="0"
          id="stop23810" />
       <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
+         style="stop-color:#1e2f58;stop-opacity:1;"
          offset="1"
          id="stop23812" />
     </linearGradient>
@@ -79,10 +79,10 @@
        id="linearGradient1559"
        gradientUnits="userSpaceOnUse"
        gradientTransform="rotate(44.273026,778.88705,318.78421)"
-       x1="773.17261"
-       y1="214.13734"
-       x2="783.56604"
-       y2="214.6367" />
+       x1="779.25281"
+       y1="250.64571"
+       x2="779.59937"
+       y2="254.96315" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient8420">

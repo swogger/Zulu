@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Demi-Journée</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            /* Optional background color */
+        }
+
+        .body-container {
+            position: fixed;
+            width: auto;
+            height: 90vh;
+            max-height: 90vh;
+        }
+
+        .second-container {
+            position: fixed;
+            width: auto;
+            height: 10vh;
+            max-height: 10vh;
+            bottom: 40.05vh;
+        }
+
+        .minute-container {
+            position: fixed;
+            width: auto;
+            height: 40vh;
+            max-height: 40vh;
+            bottom: 33.05vh;
+        }
+
+        .hour-container {
+            position: fixed;
+            width: auto;
+            height: 30vh;
+            max-height: 30vh;
+            bottom: 38.05vh;
+        }
+
+        .dial-container {
+            position: fixed;
+            width: auto;
+            height: 38vh;
+            max-height: 38vh;
+            bottom: 34.2vh;
+
+        }
+
+        .crystal-container {
+            position: fixed;
+            width: auto;
+            height: 43vh;
+            max-height: 43vh;
+            bottom: 32vh;
+
+        }
+
+        .moon-container {
+            position: fixed;
+            width: auto;
+            height: 3vh;
+            max-height: 3vh;
+            top: 5vh;
+            left: 5vh;
+
+        }
+
+        .img {
+            width: auto;
+            height: 100%;
+        }
+
+        /* Keyframes for rotation animation */
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes retrogradeGMT {
+            from {
+                transform: rotate(-120deg);
+            }
+
+            to {
+                transform: rotate(120deg);
+            }
+        }
+
+        @keyframes fadeInOut {
+            0% {
+                opacity: 1;
+            }
+
+            49% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeInOut2 {
+            0% {
+                opacity: 0;
+            }
+
+            49% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Styling for the rotating div */
+
+        .second-div {
+            animation: rotate 60s linear infinite;
+        }
+
+        .dial-div {
+            animation: dial 50s linear infinite;
+        }
+
+        .minute-div {
+            animation: rotate 30s linear infinite;
+        }
+
+        .hour-div {
+            animation: rotate 60s linear infinite;
+        }
+
+        .dial1-div {
+            opacity: 0;
+            animation: fadeInOut 30s infinite;
+        }
+
+        .dial2-div {
+            opacity: 0;
+            animation: fadeInOut2 30s infinite;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="second-container second-div">
+        <img class="img" src="images/second-hand3.svg" alt="" />
+    </div>
+    <div class="body-container">
+        <img class="img" src="images/watch-body3.svg?v=1.2" alt="" />
+    </div>
+    <div class="dial-container dial1-div">
+        <img class="img" src="images/dial1.svg?v=1.1" alt="" />
+    </div>
+    <div class="dial-container dial2-div">
+        <img class="img" src="images/dial2.svg?v=1.1" alt="" />
+    </div>
+    <div class="hour-container hour-div">
+        <img class="img" src="images/hour-hand3.svg?v=1.2" alt="" />
+    </div>
+    <div class="minute-container minute-div">
+        <img class="img" src="images/minute-hand3.svg?v=1.1" alt="" />
+    </div>
+    <div class="crystal-container crystal-div">
+        <img class="img" src="images/crystal.svg?v=1.1" alt="" />
+    </div>
+    <a class="moon-container moon-div" href="index3-night.html">
+        <img class="img" src="images/moon.svg?v=1.1" alt="" />
+    </a>
+</body>
+
+</html>
